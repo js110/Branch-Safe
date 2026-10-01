@@ -1,0 +1,369 @@
+{
+  "prior": {
+    "fit_split": "development",
+    "evaluate_split": "test",
+    "map_cells": [
+      34
+    ],
+    "development_peak": 0.223731884057971,
+    "hit": 0.14937106918238993,
+    "low": 0.08670454545454548,
+    "high": 0.22509538013318536,
+    "users": 53,
+    "state_path_groups": 47,
+    "slots": 48,
+    "uniform_hit": 0.015625,
+    "bootstrap_seed": 170926,
+    "bootstrap_replicates": 1000,
+    "interval": "window-weighted point estimate with percentile state-path-group cluster bootstrap conditional on fixed development predictor; pointwise",
+    "interpretation": "No task outputs; fixed cell predictor; not a rerun of an adaptive attack"
+  },
+  "mobility": {
+    "development": {
+      "users": 23,
+      "static_windows": 7,
+      "unique_cells_median": 3.0,
+      "changes": 55,
+      "adjacent_pairs": 1081
+    },
+    "validation": {
+      "users": 12,
+      "static_windows": 0,
+      "unique_cells_median": 4.0,
+      "changes": 45,
+      "adjacent_pairs": 564
+    },
+    "test": {
+      "users": 53,
+      "static_windows": 5,
+      "unique_cells_median": 3.0,
+      "changes": 174,
+      "adjacent_pairs": 2491
+    }
+  },
+  "task_area": [
+    {
+      "scenario": "static",
+      "area_low": 1,
+      "area_high": 8,
+      "tasks": 2222,
+      "opportunities": 55,
+      "completed": 0,
+      "retention": 0.0
+    },
+    {
+      "scenario": "static",
+      "area_low": 9,
+      "area_high": 31,
+      "tasks": 313,
+      "opportunities": 53,
+      "completed": 22,
+      "retention": 0.41509433962264153
+    },
+    {
+      "scenario": "static",
+      "area_low": 32,
+      "area_high": 64,
+      "tasks": 344,
+      "opportunities": 169,
+      "completed": 113,
+      "retention": 0.6686390532544378
+    },
+    {
+      "scenario": "walk",
+      "area_low": 1,
+      "area_high": 8,
+      "tasks": 2222,
+      "opportunities": 63,
+      "completed": 0,
+      "retention": 0.0
+    },
+    {
+      "scenario": "walk",
+      "area_low": 9,
+      "area_high": 31,
+      "tasks": 313,
+      "opportunities": 53,
+      "completed": 13,
+      "retention": 0.24528301886792453
+    },
+    {
+      "scenario": "walk",
+      "area_low": 32,
+      "area_high": 64,
+      "tasks": 344,
+      "opportunities": 164,
+      "completed": 124,
+      "retention": 0.7560975609756098
+    },
+    {
+      "scenario": "commute",
+      "area_low": 1,
+      "area_high": 8,
+      "tasks": 2222,
+      "opportunities": 57,
+      "completed": 0,
+      "retention": 0.0
+    },
+    {
+      "scenario": "commute",
+      "area_low": 9,
+      "area_high": 31,
+      "tasks": 313,
+      "opportunities": 45,
+      "completed": 22,
+      "retention": 0.4888888888888889
+    },
+    {
+      "scenario": "commute",
+      "area_low": 32,
+      "area_high": 64,
+      "tasks": 344,
+      "opportunities": 157,
+      "completed": 119,
+      "retention": 0.7579617834394905
+    },
+    {
+      "scenario": "geolife",
+      "area_low": 1,
+      "area_high": 8,
+      "tasks": 1437,
+      "opportunities": 34,
+      "completed": 0,
+      "retention": 0.0
+    },
+    {
+      "scenario": "geolife",
+      "area_low": 9,
+      "area_high": 31,
+      "tasks": 228,
+      "opportunities": 47,
+      "completed": 16,
+      "retention": 0.3404255319148936
+    },
+    {
+      "scenario": "geolife",
+      "area_low": 32,
+      "area_high": 64,
+      "tasks": 227,
+      "opportunities": 121,
+      "completed": 90,
+      "retention": 0.743801652892562
+    }
+  ],
+  "totals": {
+    "static": {
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 135,
+      "retention": 0.48736462093862815,
+      "raw_completion": 0.046891281695032996,
+      "large_region_completion_share": 0.837037037037037
+    },
+    "walk": {
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 137,
+      "retention": 0.48928571428571427,
+      "raw_completion": 0.04758596734977423,
+      "large_region_completion_share": 0.9051094890510949
+    },
+    "commute": {
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 141,
+      "retention": 0.5444015444015444,
+      "raw_completion": 0.048975338659256684,
+      "large_region_completion_share": 0.8439716312056738
+    },
+    "geolife": {
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 106,
+      "retention": 0.5247524752475248,
+      "raw_completion": 0.056025369978858354,
+      "large_region_completion_share": 0.8490566037735849
+    }
+  },
+  "main_table": [
+    {
+      "condition": "static_adaptive_none_1",
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 277,
+      "raw_completion": 0.0962139631816603
+    },
+    {
+      "condition": "static_adaptive_random_0.5",
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 136,
+      "raw_completion": 0.04723862452240361
+    },
+    {
+      "condition": "static_adaptive_rate_2",
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 158,
+      "raw_completion": 0.05488016672455714
+    },
+    {
+      "condition": "static_adaptive_coarse_2",
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 154,
+      "raw_completion": 0.05349079541507468
+    },
+    {
+      "condition": "static_adaptive_positive_only_0.1",
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 143,
+      "raw_completion": 0.04967002431399792
+    },
+    {
+      "condition": "static_adaptive_bsp_0.1",
+      "tasks": 2879,
+      "opportunities": 277,
+      "completed": 135,
+      "raw_completion": 0.046891281695032996
+    },
+    {
+      "condition": "walk_adaptive_none_1",
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 280,
+      "raw_completion": 0.09725599166377215
+    },
+    {
+      "condition": "walk_adaptive_random_0.5",
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 136,
+      "raw_completion": 0.04723862452240361
+    },
+    {
+      "condition": "walk_adaptive_rate_2",
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 158,
+      "raw_completion": 0.05488016672455714
+    },
+    {
+      "condition": "walk_adaptive_coarse_2",
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 147,
+      "raw_completion": 0.05105939562348037
+    },
+    {
+      "condition": "walk_adaptive_positive_only_0.1",
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 132,
+      "raw_completion": 0.04584925321292115
+    },
+    {
+      "condition": "walk_adaptive_bsp_0.1",
+      "tasks": 2879,
+      "opportunities": 280,
+      "completed": 137,
+      "raw_completion": 0.04758596734977423
+    },
+    {
+      "condition": "commute_adaptive_none_1",
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 259,
+      "raw_completion": 0.08996179228898923
+    },
+    {
+      "condition": "commute_adaptive_random_0.5",
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 131,
+      "raw_completion": 0.045501910385550536
+    },
+    {
+      "condition": "commute_adaptive_rate_2",
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 139,
+      "raw_completion": 0.04828065300451546
+    },
+    {
+      "condition": "commute_adaptive_coarse_2",
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 131,
+      "raw_completion": 0.045501910385550536
+    },
+    {
+      "condition": "commute_adaptive_positive_only_0.1",
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 140,
+      "raw_completion": 0.048627995831886074
+    },
+    {
+      "condition": "commute_adaptive_bsp_0.1",
+      "tasks": 2879,
+      "opportunities": 259,
+      "completed": 141,
+      "raw_completion": 0.048975338659256684
+    },
+    {
+      "condition": "geolife_adaptive_none_1",
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 202,
+      "raw_completion": 0.10676532769556026
+    },
+    {
+      "condition": "geolife_adaptive_random_0.5",
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 113,
+      "raw_completion": 0.05972515856236787
+    },
+    {
+      "condition": "geolife_adaptive_rate_2",
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 90,
+      "raw_completion": 0.04756871035940803
+    },
+    {
+      "condition": "geolife_adaptive_coarse_2",
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 112,
+      "raw_completion": 0.05919661733615222
+    },
+    {
+      "condition": "geolife_adaptive_positive_only_0.1",
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 93,
+      "raw_completion": 0.04915433403805497
+    },
+    {
+      "condition": "geolife_adaptive_bsp_0.1",
+      "tasks": 1892,
+      "opportunities": 202,
+      "completed": 106,
+      "raw_completion": 0.056025369978858354
+    }
+  ],
+  "numeric_macros": {
+    "PopulationPriorHit": "14.94",
+    "PopulationPriorPeak": "22.37",
+    "ReplayStaticWindows": "5",
+    "ReplayMedianCells": "3",
+    "LargeTaskShareMin": "83.7",
+    "LargeTaskShareMax": "90.5",
+    "RawCompletionMin": "4.69",
+    "RawCompletionMax": "5.60"
+  },
+  "study_status": "post-review descriptive diagnostics; unchanged simulation outputs"
+}
