@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "results/recent_baselines/rows.csv": "ab8d58048dd9c59cb36ad19954d63802dfafabfde1a36a38602142978fa139bc",
+    "results/final/rows.csv": "f29f592608f5e35bdb701c10c9b51c4c2525850d9fd1b9d32c9c41cebb54af12",
+    "results/recent_privic_thinning/rows.csv": "9803f6b195d2e2a89f879c60144f6349fe1e7f7026c0bf3c95237c483c4c1141"
+  },
+  "bootstrap": 1000,
+  "seed": 92026,
+  "unit": "point estimates average trajectory/window rows; uncertainty resamples synthetic seeds or GeoLife complete 48-slot state-path groups",
+  "ci": "paired cluster-percentile, pointwise, no multiplicity correction",
+  "interpolation": "lower convex envelope, reselected within each bootstrap; inside observed range only; require 95% overlap; exploratory oracle mixtures, no deployed-policy claim",
+  "conditions": 168,
+  "trajectory_rows": 12306
+}

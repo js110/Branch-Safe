@@ -1,0 +1,170 @@
+[
+  {
+    "scenario": "static",
+    "target_utility": 0.5,
+    "comparator": "pml",
+    "bsp_hit": 0.08522875584412698,
+    "comparator_hit": 0.16666475847239937
+  },
+  {
+    "scenario": "static",
+    "target_utility": 0.5,
+    "comparator": "privic",
+    "bsp_hit": 0.08522875584412698,
+    "comparator_hit": 0.1930911126066209
+  },
+  {
+    "scenario": "static",
+    "target_utility": 0.5,
+    "comparator": "random",
+    "bsp_hit": 0.08522875584412698,
+    "comparator_hit": 0.22145768873838648
+  },
+  {
+    "scenario": "static",
+    "target_utility": 0.7,
+    "comparator": "pml",
+    "bsp_hit": 0.18618711997068638,
+    "comparator_hit": 0.28047000707276293
+  },
+  {
+    "scenario": "static",
+    "target_utility": 0.7,
+    "comparator": "privic",
+    "bsp_hit": 0.18618711997068638,
+    "comparator_hit": 0.39160192467027005
+  },
+  {
+    "scenario": "static",
+    "target_utility": 0.7,
+    "comparator": "random",
+    "bsp_hit": 0.18618711997068638,
+    "comparator_hit": null
+  },
+  {
+    "scenario": "walk",
+    "target_utility": 0.5,
+    "comparator": "pml",
+    "bsp_hit": 0.06135000403487362,
+    "comparator_hit": 0.08902740700012644
+  },
+  {
+    "scenario": "walk",
+    "target_utility": 0.5,
+    "comparator": "privic",
+    "bsp_hit": 0.06135000403487362,
+    "comparator_hit": 0.08148785405828998
+  },
+  {
+    "scenario": "walk",
+    "target_utility": 0.5,
+    "comparator": "random",
+    "bsp_hit": 0.06135000403487362,
+    "comparator_hit": 0.07948129501883477
+  },
+  {
+    "scenario": "walk",
+    "target_utility": 0.7,
+    "comparator": "pml",
+    "bsp_hit": 0.10458029077322487,
+    "comparator_hit": 0.1147070298214772
+  },
+  {
+    "scenario": "walk",
+    "target_utility": 0.7,
+    "comparator": "privic",
+    "bsp_hit": 0.10458029077322487,
+    "comparator_hit": 0.10710615429586294
+  },
+  {
+    "scenario": "walk",
+    "target_utility": 0.7,
+    "comparator": "random",
+    "bsp_hit": 0.10458029077322487,
+    "comparator_hit": null
+  },
+  {
+    "scenario": "commute",
+    "target_utility": 0.5,
+    "comparator": "pml",
+    "bsp_hit": 0.03669117865531067,
+    "comparator_hit": 0.04341221819615374
+  },
+  {
+    "scenario": "commute",
+    "target_utility": 0.5,
+    "comparator": "privic",
+    "bsp_hit": 0.03669117865531067,
+    "comparator_hit": 0.04321901441481509
+  },
+  {
+    "scenario": "commute",
+    "target_utility": 0.5,
+    "comparator": "random",
+    "bsp_hit": 0.03669117865531067,
+    "comparator_hit": 0.04722144031224832
+  },
+  {
+    "scenario": "commute",
+    "target_utility": 0.7,
+    "comparator": "pml",
+    "bsp_hit": 0.05573328851224819,
+    "comparator_hit": 0.049815541069743244
+  },
+  {
+    "scenario": "commute",
+    "target_utility": 0.7,
+    "comparator": "privic",
+    "bsp_hit": 0.05573328851224819,
+    "comparator_hit": 0.05963573204750895
+  },
+  {
+    "scenario": "commute",
+    "target_utility": 0.7,
+    "comparator": "random",
+    "bsp_hit": 0.05573328851224819,
+    "comparator_hit": null
+  },
+  {
+    "scenario": "geolife",
+    "target_utility": 0.5,
+    "comparator": "pml",
+    "bsp_hit": 0.020478949266906223,
+    "comparator_hit": 0.10029899768538017
+  },
+  {
+    "scenario": "geolife",
+    "target_utility": 0.5,
+    "comparator": "privic",
+    "bsp_hit": 0.020478949266906223,
+    "comparator_hit": 0.13272441092682524
+  },
+  {
+    "scenario": "geolife",
+    "target_utility": 0.5,
+    "comparator": "random",
+    "bsp_hit": 0.020478949266906223,
+    "comparator_hit": 0.13459915753152069
+  },
+  {
+    "scenario": "geolife",
+    "target_utility": 0.7,
+    "comparator": "pml",
+    "bsp_hit": 0.16321176746991345,
+    "comparator_hit": 0.17777712244652838
+  },
+  {
+    "scenario": "geolife",
+    "target_utility": 0.7,
+    "comparator": "privic",
+    "bsp_hit": 0.16321176746991345,
+    "comparator_hit": 0.24061149676112578
+  },
+  {
+    "scenario": "geolife",
+    "target_utility": 0.7,
+    "comparator": "random",
+    "bsp_hit": 0.16321176746991345,
+    "comparator_hit": null
+  }
+]
