@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.4.1",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "code_sha256": {
+    "src/refresh_geolife_configs.py": "09c38c3d15fe6cbd5ccaa20cee7ff0f9be96646cd73674d83ccc90fb62f1648b",
+    "src/build_submission_package.py": "9debe9de8d66506b3b17e8d85f4b0a307a1bb727b518a919cbc3b107f4c724dc",
+    "src/experiment.py": "8eb88278cb2aa12846f532b377e0626aab71fecc36649e1912f9d808e0b4482c",
+    "src/build_highlights_docx.py": "c921bdb9f7a65256290577ae85da41c5e625b88a813041079bf110b67565edc4",
+    "src/analyze_stress.py": "aa444d9879767fb3a1e2fe1da862d862b9148068f5abe30fceed869a8a97ecd2",
+    "src/reproduce.py": "c006aaebc7a5213599bcc375cfe2595addefcf102457be663bd8a5566b6cae8d",
+    "src/analyze_reviewer_stress.py": "fd608ccbf4cae384c2223cbf0aa83ed3d78f4f31244a658b02c7d7238324ef57",
+    "src/paper_assets.py": "1c278887485a4c9e6739beb44bdf799b4bc055fb655eaf18f687051c82e22c3a",
+    "src/build_extension_config.py": "1e7808981e139b0d345192f97a7c31b3b41f8e1aa398edcfc68bf1b2c98b64be",
+    "src/model.py": "8b579786ef14ef06b3e6c6a4cc634c4500d9c4d383c2dc57e35f0bbe2827f91e",
+    "src/recent_baselines.py": "6e075721cfab98204d6564186a243d90fbdc2a0d39798487dcfb345b18c81b41",
+    "src/analyze_robust.py": "cffad728b8be45c0381a8d66ee76e5c3b3631e6788be44738d100563c45a506c",
+    "src/analyze_extensions.py": "ff5c385a4d7685bd59611eec150d07299ce8a09fbdcf6baf9e74d648fa9dc46a",
+    "src/analyze_recent.py": "332352a82699f00117ef275b12ecd5f81aa6b94aa530df61bc003dd5479e13f3",
+    "src/geolife.py": "2f7500fe128c8256a83b339408564424154e12341bc8cb3f8b05b8811df2f89d",
+    "src/audit.py": "78bca1d5711f59d16970af84613ad29dc7000bc554e7677ff28106f218c4c9a0",
+    "src/fit_ambiguity.py": "41cd1c32dd1daaba31877e07561205c5b3b50047c6aa5ffee9783c4442d66f00",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/review_diagnostics.py": "049b603ba650190869bb7f57ffa3d336595850a3f4cbde18e609a01ff8beaa54",
+    "src/audit_recent.py": "b95bcbad75203a491c1105c787190d35df78ffabe7247f127e55a607de745385",
+    "src/analyze.py": "bff91a923867be27b78f4bdda09f5ee461640e4c5e458aa7161a8481808bfed7",
+    "src/prepare_data.py": "a468dc14b9ad75d4e169204eba9c3d7707a443190d8732189888a12337f2c84e"
+  }
+}
