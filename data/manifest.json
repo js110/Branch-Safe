@@ -1,0 +1,973 @@
+{
+  "source_url": "https://download.microsoft.com/download/F/4/8/F4894AA5-FDBC-481E-9285-D5F8C4C4F039/Geolife%20Trajectories%201.3.zip",
+  "source_sha256": "1107c5ac064d0a23c8d021a8736a77e53abc75b227062e6260342c6a8d86bdb6",
+  "bounds": [
+    39.8,
+    40.1,
+    116.2,
+    116.6
+  ],
+  "side": 8,
+  "slots": 48,
+  "slot_seconds": 60,
+  "rule": "First lexicographic eligible file and first 48 consecutive minute bins per user; first in-bounds observation per minute; no interpolation.",
+  "split_rule": "raw user modulo 5: 0 development, 1 validation, 2/3/4 test",
+  "fit_model": "Reflecting four-neighbour walk fitted only to development change rate; jump direction/distance not fitted.",
+  "users_total": 182,
+  "selected": [
+    {
+      "user": 0,
+      "member": "Geolife Trajectories 1.3/Data/000/Trajectory/20081026134407.plt",
+      "start_minute": 57236504,
+      "split": "development"
+    },
+    {
+      "user": 1,
+      "member": "Geolife Trajectories 1.3/Data/001/Trajectory/20081025231428.plt",
+      "start_minute": 57235836,
+      "split": "validation"
+    },
+    {
+      "user": 2,
+      "member": "Geolife Trajectories 1.3/Data/002/Trajectory/20081029001905.plt",
+      "start_minute": 57240588,
+      "split": "test"
+    },
+    {
+      "user": 3,
+      "member": "Geolife Trajectories 1.3/Data/003/Trajectory/20081031031627.plt",
+      "start_minute": 57243347,
+      "split": "test"
+    },
+    {
+      "user": 4,
+      "member": "Geolife Trajectories 1.3/Data/004/Trajectory/20081113043800.plt",
+      "start_minute": 57261887,
+      "split": "test"
+    },
+    {
+      "user": 5,
+      "member": "Geolife Trajectories 1.3/Data/005/Trajectory/20081024041230.plt",
+      "start_minute": 57233645,
+      "split": "development"
+    },
+    {
+      "user": 6,
+      "member": "Geolife Trajectories 1.3/Data/006/Trajectory/20081024104408.plt",
+      "start_minute": 57233444,
+      "split": "validation"
+    },
+    {
+      "user": 7,
+      "member": "Geolife Trajectories 1.3/Data/007/Trajectory/20081028002607.plt",
+      "start_minute": 57238601,
+      "split": "test"
+    },
+    {
+      "user": 8,
+      "member": "Geolife Trajectories 1.3/Data/008/Trajectory/20081029042535.plt",
+      "start_minute": 57240520,
+      "split": "test"
+    },
+    {
+      "user": 9,
+      "member": "Geolife Trajectories 1.3/Data/009/Trajectory/20081026044805.plt",
+      "start_minute": 57235984,
+      "split": "test"
+    },
+    {
+      "user": 10,
+      "member": "Geolife Trajectories 1.3/Data/010/Trajectory/20080405160011.plt",
+      "start_minute": 56943930,
+      "split": "development"
+    },
+    {
+      "user": 11,
+      "member": "Geolife Trajectories 1.3/Data/011/Trajectory/20080929104214.plt",
+      "start_minute": 57197467,
+      "split": "validation"
+    },
+    {
+      "user": 12,
+      "member": "Geolife Trajectories 1.3/Data/012/Trajectory/20081024173348.plt",
+      "start_minute": 57234724,
+      "split": "test"
+    },
+    {
+      "user": 13,
+      "member": "Geolife Trajectories 1.3/Data/013/Trajectory/20080927233805.plt",
+      "start_minute": 57195730,
+      "split": "test"
+    },
+    {
+      "user": 14,
+      "member": "Geolife Trajectories 1.3/Data/014/Trajectory/20081128091809.plt",
+      "start_minute": 57283758,
+      "split": "test"
+    },
+    {
+      "user": 15,
+      "member": "Geolife Trajectories 1.3/Data/015/Trajectory/20081028091541.plt",
+      "start_minute": 57239133,
+      "split": "development"
+    },
+    {
+      "user": 16,
+      "member": "Geolife Trajectories 1.3/Data/016/Trajectory/20081025044159.plt",
+      "start_minute": 57234521,
+      "split": "validation"
+    },
+    {
+      "user": 17,
+      "member": "Geolife Trajectories 1.3/Data/017/Trajectory/20081120005306.plt",
+      "start_minute": 57272000,
+      "split": "test"
+    },
+    {
+      "user": 18,
+      "member": "Geolife Trajectories 1.3/Data/018/Trajectory/20081106024303.plt",
+      "start_minute": 57251702,
+      "split": "test"
+    },
+    {
+      "user": 19,
+      "member": "Geolife Trajectories 1.3/Data/019/Trajectory/20081120073715.plt",
+      "start_minute": 57272137,
+      "split": "test"
+    },
+    {
+      "user": 22,
+      "member": "Geolife Trajectories 1.3/Data/022/Trajectory/20090111061633.plt",
+      "start_minute": 57346936,
+      "split": "test"
+    },
+    {
+      "user": 23,
+      "member": "Geolife Trajectories 1.3/Data/023/Trajectory/20090112042134.plt",
+      "start_minute": 57348289,
+      "split": "test"
+    },
+    {
+      "user": 24,
+      "member": "Geolife Trajectories 1.3/Data/024/Trajectory/20081219100334.plt",
+      "start_minute": 57314484,
+      "split": "test"
+    },
+    {
+      "user": 25,
+      "member": "Geolife Trajectories 1.3/Data/025/Trajectory/20081219031120.plt",
+      "start_minute": 57313640,
+      "split": "development"
+    },
+    {
+      "user": 26,
+      "member": "Geolife Trajectories 1.3/Data/026/Trajectory/20090117025322.plt",
+      "start_minute": 57355726,
+      "split": "validation"
+    },
+    {
+      "user": 27,
+      "member": "Geolife Trajectories 1.3/Data/027/Trajectory/20090113100022.plt",
+      "start_minute": 57350052,
+      "split": "test"
+    },
+    {
+      "user": 28,
+      "member": "Geolife Trajectories 1.3/Data/028/Trajectory/20090201082704.plt",
+      "start_minute": 57377307,
+      "split": "test"
+    },
+    {
+      "user": 29,
+      "member": "Geolife Trajectories 1.3/Data/029/Trajectory/20090116001822.plt",
+      "start_minute": 57353785,
+      "split": "test"
+    },
+    {
+      "user": 30,
+      "member": "Geolife Trajectories 1.3/Data/030/Trajectory/20090117005557.plt",
+      "start_minute": 57355333,
+      "split": "development"
+    },
+    {
+      "user": 32,
+      "member": "Geolife Trajectories 1.3/Data/032/Trajectory/20081202231826.plt",
+      "start_minute": 57290756,
+      "split": "test"
+    },
+    {
+      "user": 33,
+      "member": "Geolife Trajectories 1.3/Data/033/Trajectory/20090107103706.plt",
+      "start_minute": 57341705,
+      "split": "test"
+    },
+    {
+      "user": 34,
+      "member": "Geolife Trajectories 1.3/Data/034/Trajectory/20090214001641.plt",
+      "start_minute": 57395546,
+      "split": "test"
+    },
+    {
+      "user": 35,
+      "member": "Geolife Trajectories 1.3/Data/035/Trajectory/20090222042633.plt",
+      "start_minute": 57407699,
+      "split": "development"
+    },
+    {
+      "user": 36,
+      "member": "Geolife Trajectories 1.3/Data/036/Trajectory/20090218062323.plt",
+      "start_minute": 57401848,
+      "split": "validation"
+    },
+    {
+      "user": 37,
+      "member": "Geolife Trajectories 1.3/Data/037/Trajectory/20090120074838.plt",
+      "start_minute": 57360111,
+      "split": "test"
+    },
+    {
+      "user": 38,
+      "member": "Geolife Trajectories 1.3/Data/038/Trajectory/20090206121102.plt",
+      "start_minute": 57384743,
+      "split": "test"
+    },
+    {
+      "user": 39,
+      "member": "Geolife Trajectories 1.3/Data/039/Trajectory/20090214022959.plt",
+      "start_minute": 57396065,
+      "split": "test"
+    },
+    {
+      "user": 40,
+      "member": "Geolife Trajectories 1.3/Data/040/Trajectory/20090209043406.plt",
+      "start_minute": 57388643,
+      "split": "development"
+    },
+    {
+      "user": 41,
+      "member": "Geolife Trajectories 1.3/Data/041/Trajectory/20090216001617.plt",
+      "start_minute": 57398416,
+      "split": "validation"
+    },
+    {
+      "user": 42,
+      "member": "Geolife Trajectories 1.3/Data/042/Trajectory/20081013092934.plt",
+      "start_minute": 57217671,
+      "split": "test"
+    },
+    {
+      "user": 43,
+      "member": "Geolife Trajectories 1.3/Data/043/Trajectory/20090214233531.plt",
+      "start_minute": 57397322,
+      "split": "test"
+    },
+    {
+      "user": 44,
+      "member": "Geolife Trajectories 1.3/Data/044/Trajectory/20090219053559.plt",
+      "start_minute": 57403084,
+      "split": "test"
+    },
+    {
+      "user": 45,
+      "member": "Geolife Trajectories 1.3/Data/045/Trajectory/20100626061702.plt",
+      "start_minute": 58111627,
+      "split": "development"
+    },
+    {
+      "user": 46,
+      "member": "Geolife Trajectories 1.3/Data/046/Trajectory/20100511101325.plt",
+      "start_minute": 58045573,
+      "split": "validation"
+    },
+    {
+      "user": 50,
+      "member": "Geolife Trajectories 1.3/Data/050/Trajectory/20090702011438.plt",
+      "start_minute": 57594708,
+      "split": "development"
+    },
+    {
+      "user": 52,
+      "member": "Geolife Trajectories 1.3/Data/052/Trajectory/20080117233041.plt",
+      "start_minute": 56829582,
+      "split": "test"
+    },
+    {
+      "user": 54,
+      "member": "Geolife Trajectories 1.3/Data/054/Trajectory/20090629062806.plt",
+      "start_minute": 57590316,
+      "split": "test"
+    },
+    {
+      "user": 55,
+      "member": "Geolife Trajectories 1.3/Data/055/Trajectory/20110824133934.plt",
+      "start_minute": 58722770,
+      "split": "development"
+    },
+    {
+      "user": 58,
+      "member": "Geolife Trajectories 1.3/Data/058/Trajectory/20110312031252.plt",
+      "start_minute": 58484655,
+      "split": "test"
+    },
+    {
+      "user": 59,
+      "member": "Geolife Trajectories 1.3/Data/059/Trajectory/20110312031252.plt",
+      "start_minute": 58484655,
+      "split": "test"
+    },
+    {
+      "user": 62,
+      "member": "Geolife Trajectories 1.3/Data/062/Trajectory/20080624055008.plt",
+      "start_minute": 57057470,
+      "split": "test"
+    },
+    {
+      "user": 64,
+      "member": "Geolife Trajectories 1.3/Data/064/Trajectory/20080829093306.plt",
+      "start_minute": 57153076,
+      "split": "test"
+    },
+    {
+      "user": 65,
+      "member": "Geolife Trajectories 1.3/Data/065/Trajectory/20110807101032.plt",
+      "start_minute": 58698013,
+      "split": "development"
+    },
+    {
+      "user": 66,
+      "member": "Geolife Trajectories 1.3/Data/066/Trajectory/20090820103110.plt",
+      "start_minute": 57665533,
+      "split": "validation"
+    },
+    {
+      "user": 67,
+      "member": "Geolife Trajectories 1.3/Data/067/Trajectory/20101128150736.plt",
+      "start_minute": 58335320,
+      "split": "test"
+    },
+    {
+      "user": 68,
+      "member": "Geolife Trajectories 1.3/Data/068/Trajectory/20080918045334.plt",
+      "start_minute": 57181659,
+      "split": "test"
+    },
+    {
+      "user": 69,
+      "member": "Geolife Trajectories 1.3/Data/069/Trajectory/20080627011735.plt",
+      "start_minute": 57061517,
+      "split": "test"
+    },
+    {
+      "user": 70,
+      "member": "Geolife Trajectories 1.3/Data/070/Trajectory/20080927233805.plt",
+      "start_minute": 57195730,
+      "split": "development"
+    },
+    {
+      "user": 71,
+      "member": "Geolife Trajectories 1.3/Data/071/Trajectory/20120106141722.plt",
+      "start_minute": 58917017,
+      "split": "validation"
+    },
+    {
+      "user": 73,
+      "member": "Geolife Trajectories 1.3/Data/073/Trajectory/20080620005315.plt",
+      "start_minute": 57051972,
+      "split": "test"
+    },
+    {
+      "user": 74,
+      "member": "Geolife Trajectories 1.3/Data/074/Trajectory/20120107025535.plt",
+      "start_minute": 58917828,
+      "split": "test"
+    },
+    {
+      "user": 75,
+      "member": "Geolife Trajectories 1.3/Data/075/Trajectory/20110824133934.plt",
+      "start_minute": 58722770,
+      "split": "development"
+    },
+    {
+      "user": 78,
+      "member": "Geolife Trajectories 1.3/Data/078/Trajectory/20080530065158.plt",
+      "start_minute": 57021534,
+      "split": "test"
+    },
+    {
+      "user": 79,
+      "member": "Geolife Trajectories 1.3/Data/079/Trajectory/20100527010200.plt",
+      "start_minute": 58068062,
+      "split": "test"
+    },
+    {
+      "user": 81,
+      "member": "Geolife Trajectories 1.3/Data/081/Trajectory/20080724032435.plt",
+      "start_minute": 57101064,
+      "split": "validation"
+    },
+    {
+      "user": 82,
+      "member": "Geolife Trajectories 1.3/Data/082/Trajectory/20090307084408.plt",
+      "start_minute": 57426538,
+      "split": "test"
+    },
+    {
+      "user": 83,
+      "member": "Geolife Trajectories 1.3/Data/083/Trajectory/20090221151733.plt",
+      "start_minute": 57406517,
+      "split": "test"
+    },
+    {
+      "user": 84,
+      "member": "Geolife Trajectories 1.3/Data/084/Trajectory/20080721232434.plt",
+      "start_minute": 57097411,
+      "split": "test"
+    },
+    {
+      "user": 85,
+      "member": "Geolife Trajectories 1.3/Data/085/Trajectory/20080501001738.plt",
+      "start_minute": 56979377,
+      "split": "development"
+    },
+    {
+      "user": 88,
+      "member": "Geolife Trajectories 1.3/Data/088/Trajectory/20080929104214.plt",
+      "start_minute": 57197467,
+      "split": "test"
+    },
+    {
+      "user": 89,
+      "member": "Geolife Trajectories 1.3/Data/089/Trajectory/20080501010943.plt",
+      "start_minute": 56979453,
+      "split": "test"
+    },
+    {
+      "user": 95,
+      "member": "Geolife Trajectories 1.3/Data/095/Trajectory/20110307082304.plt",
+      "start_minute": 58477594,
+      "split": "development"
+    },
+    {
+      "user": 96,
+      "member": "Geolife Trajectories 1.3/Data/096/Trajectory/20080710100929.plt",
+      "start_minute": 57081521,
+      "split": "validation"
+    },
+    {
+      "user": 102,
+      "member": "Geolife Trajectories 1.3/Data/102/Trajectory/20111023163634.plt",
+      "start_minute": 58809156,
+      "split": "test"
+    },
+    {
+      "user": 103,
+      "member": "Geolife Trajectories 1.3/Data/103/Trajectory/20080827091414.plt",
+      "start_minute": 57149845,
+      "split": "test"
+    },
+    {
+      "user": 104,
+      "member": "Geolife Trajectories 1.3/Data/104/Trajectory/20081010163933.plt",
+      "start_minute": 57213669,
+      "split": "test"
+    },
+    {
+      "user": 112,
+      "member": "Geolife Trajectories 1.3/Data/112/Trajectory/20080510190040.plt",
+      "start_minute": 56993588,
+      "split": "test"
+    },
+    {
+      "user": 113,
+      "member": "Geolife Trajectories 1.3/Data/113/Trajectory/20100510103524.plt",
+      "start_minute": 58044252,
+      "split": "test"
+    },
+    {
+      "user": 115,
+      "member": "Geolife Trajectories 1.3/Data/115/Trajectory/20080504231509.plt",
+      "start_minute": 56985075,
+      "split": "development"
+    },
+    {
+      "user": 119,
+      "member": "Geolife Trajectories 1.3/Data/119/Trajectory/20080729005527.plt",
+      "start_minute": 57107639,
+      "split": "test"
+    },
+    {
+      "user": 122,
+      "member": "Geolife Trajectories 1.3/Data/122/Trajectory/20090524162334.plt",
+      "start_minute": 57539577,
+      "split": "test"
+    },
+    {
+      "user": 125,
+      "member": "Geolife Trajectories 1.3/Data/125/Trajectory/20080820011704.plt",
+      "start_minute": 57139673,
+      "split": "development"
+    },
+    {
+      "user": 126,
+      "member": "Geolife Trajectories 1.3/Data/126/Trajectory/20080523070332.plt",
+      "start_minute": 57011463,
+      "split": "validation"
+    },
+    {
+      "user": 128,
+      "member": "Geolife Trajectories 1.3/Data/128/Trajectory/20080405011127.plt",
+      "start_minute": 56942257,
+      "split": "test"
+    },
+    {
+      "user": 129,
+      "member": "Geolife Trajectories 1.3/Data/129/Trajectory/20080627011735.plt",
+      "start_minute": 57061517,
+      "split": "test"
+    },
+    {
+      "user": 130,
+      "member": "Geolife Trajectories 1.3/Data/130/Trajectory/20090711143607.plt",
+      "start_minute": 57608076,
+      "split": "development"
+    },
+    {
+      "user": 131,
+      "member": "Geolife Trajectories 1.3/Data/131/Trajectory/20090421063014.plt",
+      "start_minute": 57491472,
+      "split": "validation"
+    },
+    {
+      "user": 135,
+      "member": "Geolife Trajectories 1.3/Data/135/Trajectory/20081227072604.plt",
+      "start_minute": 57325606,
+      "split": "development"
+    },
+    {
+      "user": 138,
+      "member": "Geolife Trajectories 1.3/Data/138/Trajectory/20070525050024.plt",
+      "start_minute": 56487401,
+      "split": "test"
+    },
+    {
+      "user": 140,
+      "member": "Geolife Trajectories 1.3/Data/140/Trajectory/20080830054203.plt",
+      "start_minute": 57153942,
+      "split": "development"
+    },
+    {
+      "user": 141,
+      "member": "Geolife Trajectories 1.3/Data/141/Trajectory/20111008083033.plt",
+      "start_minute": 58787105,
+      "split": "validation"
+    },
+    {
+      "user": 142,
+      "member": "Geolife Trajectories 1.3/Data/142/Trajectory/20080523001819.plt",
+      "start_minute": 57011058,
+      "split": "test"
+    },
+    {
+      "user": 144,
+      "member": "Geolife Trajectories 1.3/Data/144/Trajectory/20080501010943.plt",
+      "start_minute": 56979453,
+      "split": "test"
+    },
+    {
+      "user": 145,
+      "member": "Geolife Trajectories 1.3/Data/145/Trajectory/20080430084137.plt",
+      "start_minute": 56978465,
+      "split": "development"
+    },
+    {
+      "user": 147,
+      "member": "Geolife Trajectories 1.3/Data/147/Trajectory/20110429211108.plt",
+      "start_minute": 58554696,
+      "split": "test"
+    },
+    {
+      "user": 151,
+      "member": "Geolife Trajectories 1.3/Data/151/Trajectory/20091011140430.plt",
+      "start_minute": 57740563,
+      "split": "validation"
+    },
+    {
+      "user": 153,
+      "member": "Geolife Trajectories 1.3/Data/153/Trajectory/20080405011127.plt",
+      "start_minute": 56942257,
+      "split": "test"
+    },
+    {
+      "user": 155,
+      "member": "Geolife Trajectories 1.3/Data/155/Trajectory/20090527070133.plt",
+      "start_minute": 57542821,
+      "split": "development"
+    },
+    {
+      "user": 156,
+      "member": "Geolife Trajectories 1.3/Data/156/Trajectory/20090709003804.plt",
+      "start_minute": 57604358,
+      "split": "validation"
+    },
+    {
+      "user": 159,
+      "member": "Geolife Trajectories 1.3/Data/159/Trajectory/20120330145031.plt",
+      "start_minute": 59038079,
+      "split": "test"
+    },
+    {
+      "user": 163,
+      "member": "Geolife Trajectories 1.3/Data/163/Trajectory/20080405011127.plt",
+      "start_minute": 56942257,
+      "split": "test"
+    },
+    {
+      "user": 167,
+      "member": "Geolife Trajectories 1.3/Data/167/Trajectory/20080508093034.plt",
+      "start_minute": 56990010,
+      "split": "test"
+    },
+    {
+      "user": 168,
+      "member": "Geolife Trajectories 1.3/Data/168/Trajectory/20110529222904.plt",
+      "start_minute": 58597829,
+      "split": "test"
+    },
+    {
+      "user": 169,
+      "member": "Geolife Trajectories 1.3/Data/169/Trajectory/20100519010223.plt",
+      "start_minute": 58056542,
+      "split": "test"
+    },
+    {
+      "user": 174,
+      "member": "Geolife Trajectories 1.3/Data/174/Trajectory/20080111042937.plt",
+      "start_minute": 56820218,
+      "split": "test"
+    },
+    {
+      "user": 177,
+      "member": "Geolife Trajectories 1.3/Data/177/Trajectory/20090919171122.plt",
+      "start_minute": 57709119,
+      "split": "test"
+    },
+    {
+      "user": 179,
+      "member": "Geolife Trajectories 1.3/Data/179/Trajectory/20080824015336.plt",
+      "start_minute": 57145089,
+      "split": "test"
+    }
+  ],
+  "excluded": [
+    {
+      "user": 20,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 21,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 31,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 47,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 48,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 49,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 51,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 53,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 56,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 57,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 60,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 61,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 63,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 72,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 76,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 77,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 80,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 86,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 87,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 90,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 91,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 92,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 93,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 94,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 97,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 98,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 99,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 100,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 101,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 105,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 106,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 107,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 108,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 109,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 110,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 111,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 114,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 116,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 117,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 118,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 120,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 121,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 123,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 124,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 127,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 132,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 133,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 134,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 136,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 137,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 139,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 143,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 146,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 148,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 149,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 150,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 152,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 154,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 157,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 158,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 160,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 161,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 162,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 164,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 165,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 166,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 170,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 171,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 172,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 173,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 175,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 176,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 178,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 180,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    },
+    {
+      "user": 181,
+      "reason": "no 48 consecutive in-bounds one-minute samples in one file"
+    }
+  ],
+  "raw_counts": {
+    "development": 23,
+    "validation": 17,
+    "test": 67
+  },
+  "holdout_rule": "Effective analysis groups windows by the complete 48-slot 8x8 state path consumed by the model and assigns each group to its earliest development -> validation -> test split. All group members in the owning split are retained; later-split members are excluded. Exact GPS-coordinate hashes are provenance-only.",
+  "effective_counts_source": "results/geolife_decontamination.json",
+  "manifest_scope": "raw deterministic processed-cache provenance; not the effective analysis split",
+  "raw_development_change_probability": 0.05087881591119333,
+  "effective_change_probability_source": "results/geolife_decontamination.json"
+}
