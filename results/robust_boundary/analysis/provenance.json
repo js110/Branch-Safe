@@ -1,0 +1,19 @@
+{
+  "status": "exploratory stress test, not confirmatory",
+  "bootstrap": 1000,
+  "unit": "synthetic seed with four users",
+  "ambiguity_grid": {
+    "moves": [
+      0.05,
+      0.3,
+      0.8
+    ],
+    "alphas": [
+      0.3,
+      0.648,
+      0.9
+    ]
+  },
+  "primary_security_endpoint": "attacker_local_violation_rate",
+  "note": "R-BSP was motivated by previously observed model-mismatch failures; results must not be described as pre-specified confirmation."
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "tmc-reviewer-stress-v1",
+  "bootstrap_replicates": 1000,
+  "cluster": "synthetic seed",
+  "config_sha256": "a4a654ac02f3283be33fdedcffc447eb0a08afef8332ba0c97844cad8be58477",
+  "rows_sha256": "de830c98456b5dd945e49a2cc11043d96fc4f100e9a7382388e0a306992cfb9e",
+  "interpretation": "post-review sensitivity/stress evidence; not production-service or confirmatory evidence"
+}
