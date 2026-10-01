@@ -1,0 +1,337 @@
+{
+  "output": "results/robust_boundary",
+  "side": 8,
+  "slots": 48,
+  "seeds": [
+    4000,
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006,
+    4007,
+    4008,
+    4009,
+    4010,
+    4011,
+    4012,
+    4013,
+    4014,
+    4015,
+    4016,
+    4017,
+    4018,
+    4019
+  ],
+  "users_per_seed": 4,
+  "study_status": "post-hoc boundary characterization; independent seeds; not confirmatory",
+  "robust_model_grid": {
+    "moves": [
+      0.05,
+      0.3,
+      0.8
+    ],
+    "alphas": [
+      0.3,
+      0.648,
+      0.9
+    ]
+  },
+  "boundary_cases": {
+    "alpha_mid_unlisted": "correct attacker alpha 0.5 lies between listed alpha values",
+    "alpha_outside_high": "correct attacker alpha 0.98 lies above ambiguity-set maximum 0.9",
+    "move_mid_unlisted": "correct attacker move 0.5 lies between listed move values",
+    "move_outside_high": "correct attacker move 0.95 lies above ambiguity-set maximum 0.8"
+  },
+  "conditions": [
+    {
+      "delivery": 0.5,
+      "willing": 1,
+      "on_time": 1,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "boundary_alpha_mid_unlisted_bsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.5,
+      "mismatch": "alpha_mid_unlisted"
+    },
+    {
+      "delivery": 0.5,
+      "willing": 1,
+      "on_time": 1,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "boundary_alpha_mid_unlisted_rbsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.5,
+      "mismatch": "alpha_mid_unlisted",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.98,
+      "willing": 1,
+      "on_time": 1,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "boundary_alpha_outside_high_bsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.98,
+      "mismatch": "alpha_outside_high"
+    },
+    {
+      "delivery": 0.98,
+      "willing": 1,
+      "on_time": 1,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "boundary_alpha_outside_high_rbsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.98,
+      "mismatch": "alpha_outside_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.5,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "boundary_move_mid_unlisted_bsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.5,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_mid_unlisted"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.5,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "boundary_move_mid_unlisted_rbsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.5,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_mid_unlisted",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.95,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "boundary_move_outside_high_bsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.95,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_outside_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.95,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "boundary_move_outside_high_rbsp",
+      "alpha_model": 0.648,
+      "attacker_move": 0.95,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_outside_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    }
+  ]
+}

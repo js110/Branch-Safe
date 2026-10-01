@@ -1,0 +1,1483 @@
+{
+  "output": "results/robust_informed",
+  "side": 8,
+  "slots": 48,
+  "seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019
+  ],
+  "users_per_seed": 4,
+  "study_status": "exploratory stress test; model set fixed before this run; not a confirmatory GeoLife test",
+  "robust_model_grid": {
+    "moves": [
+      0.05,
+      0.3,
+      0.8
+    ],
+    "alphas": [
+      0.3,
+      0.648,
+      0.9
+    ]
+  },
+  "conditions": [
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.05,
+      "id": "robust_nominal_bsp_0.05",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.05,
+      "id": "robust_nominal_rbsp_0.05",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "robust_nominal_bsp_0.1",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "robust_nominal_rbsp_0.1",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.2,
+      "id": "robust_nominal_bsp_0.2",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.2,
+      "id": "robust_nominal_rbsp_0.2",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.4,
+      "id": "robust_nominal_bsp_0.4",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.4,
+      "id": "robust_nominal_rbsp_0.4",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "nominal",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.05,
+      "id": "robust_alpha_low_bsp_0.05",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.05,
+      "id": "robust_alpha_low_rbsp_0.05",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "robust_alpha_low_bsp_0.1",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "robust_alpha_low_rbsp_0.1",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.2,
+      "id": "robust_alpha_low_bsp_0.2",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.2,
+      "id": "robust_alpha_low_rbsp_0.2",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.4,
+      "id": "robust_alpha_low_bsp_0.4",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.4,
+      "id": "robust_alpha_low_rbsp_0.4",
+      "alpha_model": 0.3,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.05,
+      "id": "robust_alpha_high_bsp_0.05",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.05,
+      "id": "robust_alpha_high_rbsp_0.05",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "robust_alpha_high_bsp_0.1",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "robust_alpha_high_rbsp_0.1",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.2,
+      "id": "robust_alpha_high_bsp_0.2",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.2,
+      "id": "robust_alpha_high_rbsp_0.2",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.4,
+      "id": "robust_alpha_high_bsp_0.4",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.3,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.4,
+      "id": "robust_alpha_high_rbsp_0.4",
+      "alpha_model": 0.9,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "alpha_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.05,
+      "id": "robust_move_low_bsp_0.05",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.05,
+      "id": "robust_move_low_rbsp_0.05",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "robust_move_low_bsp_0.1",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "robust_move_low_rbsp_0.1",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.2,
+      "id": "robust_move_low_bsp_0.2",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.2,
+      "id": "robust_move_low_rbsp_0.2",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.4,
+      "id": "robust_move_low_bsp_0.4",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.05,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.4,
+      "id": "robust_move_low_rbsp_0.4",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_low",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.05,
+      "id": "robust_move_high_bsp_0.05",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.05,
+      "id": "robust_move_high_rbsp_0.05",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.1,
+      "id": "robust_move_high_bsp_0.1",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.1,
+      "id": "robust_move_high_rbsp_0.1",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.2,
+      "id": "robust_move_high_bsp_0.2",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.2,
+      "id": "robust_move_high_rbsp_0.2",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "bsp",
+      "param": 0.4,
+      "id": "robust_move_high_bsp_0.4",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high"
+    },
+    {
+      "delivery": 0.9,
+      "willing": 0.8,
+      "on_time": 0.9,
+      "move_true": 0.3,
+      "move_model": 0.8,
+      "side": 8,
+      "scenario": "walk",
+      "attack": "adaptive",
+      "method": "rbsp",
+      "param": 0.4,
+      "id": "robust_move_high_rbsp_0.4",
+      "alpha_model": 0.648,
+      "attacker_move": 0.3,
+      "attacker_alpha": 0.648,
+      "mismatch": "move_high",
+      "robust_models": [
+        {
+          "move": 0.05,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.05,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.3,
+          "alpha": 0.9
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.3
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.648
+        },
+        {
+          "move": 0.8,
+          "alpha": 0.9
+        }
+      ]
+    }
+  ]
+}

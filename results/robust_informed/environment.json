@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "code_sha256": {
+    "src/experiment.py": "05c6ddfbb8e5f1c36aad3ac3a949f26890cd853b02c086e25b447ffc8c0eb4ab",
+    "src/analyze_stress.py": "aa444d9879767fb3a1e2fe1da862d862b9148068f5abe30fceed869a8a97ecd2",
+    "src/reproduce.py": "c006aaebc7a5213599bcc375cfe2595addefcf102457be663bd8a5566b6cae8d",
+    "src/paper_assets.py": "8b7c681770f36a9f0074f3c893199e97e54c0c9567da1103d12dd413d064d210",
+    "src/model.py": "f76f448a4c3277a8e088d71af55f4261827dcb4c282a7773e145080b8616a43a",
+    "src/recent_baselines.py": "80e462dde7db02994b5cf61c3645d7e257b2a3e40bf1a08665fb92434f6a873c",
+    "src/analyze_robust.py": "cffad728b8be45c0381a8d66ee76e5c3b3631e6788be44738d100563c45a506c",
+    "src/analyze_recent.py": "685bcb570d00ff6062d6ed95a73401c27b162be2dac8509485557cec799d86bf",
+    "src/package_paper.py": "0c27e32049b12f333c9f7ced98113419a9ec5b37b7f503713345ff5f226374b3",
+    "src/audit.py": "78bca1d5711f59d16970af84613ad29dc7000bc554e7677ff28106f218c4c9a0",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/review_diagnostics.py": "098d16153947f420a5a72245c4271aef0514ac326b01acec75b5e1ec811fa294",
+    "src/audit_recent.py": "b95bcbad75203a491c1105c787190d35df78ffabe7247f127e55a607de745385",
+    "src/analyze.py": "1ca948aaa6d1663aa77e797337cf9aed0ca88dcfe83b5864f591d7a090ec4fbd",
+    "src/prepare_data.py": "7232b2bcc77e5ce5179c0729ab9242d7af716d7ec2cba21dea9c6376af98b0a0"
+  }
+}
