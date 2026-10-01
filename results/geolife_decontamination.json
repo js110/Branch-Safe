@@ -1,0 +1,413 @@
+{
+  "holdout_rule": "Group by SHA-256 of the complete discrete state path consumed by the model and assign each group to its earliest development -> validation -> test split. Retain all group members in the owning split and exclude later-split members. Exact GPS-coordinate fingerprints are retained as a separate provenance audit.",
+  "raw_counts": {
+    "development": 23,
+    "validation": 17,
+    "test": 67
+  },
+  "effective_counts": {
+    "development": 23,
+    "validation": 12,
+    "test": 53
+  },
+  "unique_model_input_paths": 80,
+  "cross_split_model_input_groups": [
+    {
+      "state_path_fingerprint": "563fcd28d5d678b0cc1292a3e221ea74ad21710841a4322cf25cbc3edc4dc811",
+      "members": [
+        {
+          "split": "development",
+          "user": 0,
+          "coordinate_fingerprint": "0de89ceb0e20d2809201220856eca5043ab4bf6abbfdeec760291ed0879524db"
+        },
+        {
+          "split": "validation",
+          "user": 151,
+          "coordinate_fingerprint": "0af8cb6ca82c6135be5c7db2b5f0a0a080212d8d7b685dd4dff5caa944f473a6"
+        }
+      ]
+    },
+    {
+      "state_path_fingerprint": "d5f139ae4a03dcf29b14aff2e98f072f04da9009698511ff201544443287fb54",
+      "members": [
+        {
+          "split": "development",
+          "user": 35,
+          "coordinate_fingerprint": "a574e91927f49664c9ebf2183aff1c512c3020e4bdf71f0f9c3f72ed9b7036d4"
+        },
+        {
+          "split": "validation",
+          "user": 96,
+          "coordinate_fingerprint": "ab6bb70bcaf948d585ab68629298c66654d2a838764df98eacc665cbb9e272c5"
+        },
+        {
+          "split": "test",
+          "user": 9,
+          "coordinate_fingerprint": "1ee7de864654415d03b484d1560d15ec32837dcfdf6f0a7c5ca71af1cf7f2f5d"
+        },
+        {
+          "split": "test",
+          "user": 42,
+          "coordinate_fingerprint": "11974e906f504ae2d4e73f49030163b1c9eedbc76838392c3ccbcd7c0c629f89"
+        }
+      ]
+    },
+    {
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "members": [
+        {
+          "split": "development",
+          "user": 55,
+          "coordinate_fingerprint": "3fe3c35de73bec2ff51b459dafba02ea38629317b6009bc1be58b70c3d83dcde"
+        },
+        {
+          "split": "development",
+          "user": 65,
+          "coordinate_fingerprint": "0ce4be740e3debd9a33f24fd3f6867db59522e95eaf5a53dbd13a79d5d8f6228"
+        },
+        {
+          "split": "development",
+          "user": 75,
+          "coordinate_fingerprint": "3fe3c35de73bec2ff51b459dafba02ea38629317b6009bc1be58b70c3d83dcde"
+        },
+        {
+          "split": "validation",
+          "user": 26,
+          "coordinate_fingerprint": "68695ffdc7817ed4e2978b64e62609499f500a127c28087f0c96c3e373690386"
+        },
+        {
+          "split": "validation",
+          "user": 36,
+          "coordinate_fingerprint": "a8f83f69aa248321136dd1fb95bf8beec9c38f53c7171642e1587b6ded21fd5f"
+        },
+        {
+          "split": "validation",
+          "user": 71,
+          "coordinate_fingerprint": "b360a5c53dcbd0fddd30be41e95151143f3d8d751725b8dbc83a35a0d1419129"
+        },
+        {
+          "split": "test",
+          "user": 23,
+          "coordinate_fingerprint": "c1960b964e1855757e2df5a7b17a4f3cf34a7e61acda7eea8fb98488a13361f2"
+        },
+        {
+          "split": "test",
+          "user": 24,
+          "coordinate_fingerprint": "3fce81493e0e2c005cedbdaaf2f06ff4c1262d6d2c357a53fbd85d131aab5d3b"
+        },
+        {
+          "split": "test",
+          "user": 32,
+          "coordinate_fingerprint": "a1876dc72438e6123dd2a1cb5565cb1cbec9de6894eec9c42df1413d3d63af5d"
+        },
+        {
+          "split": "test",
+          "user": 33,
+          "coordinate_fingerprint": "6a18008365674490b80325d8a135ab2857f1c26ef46592a06721fe4d3776432f"
+        },
+        {
+          "split": "test",
+          "user": 44,
+          "coordinate_fingerprint": "66a0ca90953e82ddef7be2d9e76adae856614236fa25a4e78692488004b3cfb8"
+        },
+        {
+          "split": "test",
+          "user": 67,
+          "coordinate_fingerprint": "b74dfcdf7fa9728cae32acdec6c8fa035029aa853d2668ef5ca628ee1f52abbe"
+        },
+        {
+          "split": "test",
+          "user": 112,
+          "coordinate_fingerprint": "7e3483e7ef8e3362c38231ac3bc8c984c1496198f9f35ca6111e8c9b74a05a7d"
+        },
+        {
+          "split": "test",
+          "user": 159,
+          "coordinate_fingerprint": "b90ff9cd523327625afd734e0cec6895e1bac97d7e5c510759a373cb25edb07a"
+        },
+        {
+          "split": "test",
+          "user": 174,
+          "coordinate_fingerprint": "b2ea11beb9dca955c3a88ba820bad55b0570f62bda45fb37059d7f45a44d13d8"
+        }
+      ]
+    },
+    {
+      "state_path_fingerprint": "804d6b9142dcc18ec7ad763541e2ab94a755a386e69be0a4094541c4fca640e2",
+      "members": [
+        {
+          "split": "development",
+          "user": 70,
+          "coordinate_fingerprint": "e7a53afd365a0c15acc8ba96da1de5ad303be5ba6de706b973f880f4bffccdfb"
+        },
+        {
+          "split": "test",
+          "user": 13,
+          "coordinate_fingerprint": "e7a53afd365a0c15acc8ba96da1de5ad303be5ba6de706b973f880f4bffccdfb"
+        }
+      ]
+    },
+    {
+      "state_path_fingerprint": "60490c354313501c438b5ab0aad40105c37109c59202ef0c6f0dfd2c91829f88",
+      "members": [
+        {
+          "split": "development",
+          "user": 135,
+          "coordinate_fingerprint": "4c1f4f3ca4635515c9ba4cacf98ac84f8afff201be5b8fad53f66d7a98456a47"
+        },
+        {
+          "split": "test",
+          "user": 177,
+          "coordinate_fingerprint": "1791ce77912c008f50ae7fa00bce85f1656e78a2cb33d9ad89708d1baa4c960d"
+        }
+      ]
+    },
+    {
+      "state_path_fingerprint": "411ecc3b595e5571133f4510647f26b43d87d2549f30767ce2be0023b387d814",
+      "members": [
+        {
+          "split": "validation",
+          "user": 11,
+          "coordinate_fingerprint": "e13e28113c9e68b3e1e4b04d9268d1c4739eba83d9aedc8569afe9c3507e01b6"
+        },
+        {
+          "split": "test",
+          "user": 88,
+          "coordinate_fingerprint": "e13e28113c9e68b3e1e4b04d9268d1c4739eba83d9aedc8569afe9c3507e01b6"
+        }
+      ]
+    }
+  ],
+  "dropped_later_split_windows": [
+    {
+      "split": "validation",
+      "user": 26,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "68695ffdc7817ed4e2978b64e62609499f500a127c28087f0c96c3e373690386",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "validation",
+      "user": 36,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "a8f83f69aa248321136dd1fb95bf8beec9c38f53c7171642e1587b6ded21fd5f",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "validation",
+      "user": 71,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "b360a5c53dcbd0fddd30be41e95151143f3d8d751725b8dbc83a35a0d1419129",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "validation",
+      "user": 96,
+      "state_path_fingerprint": "d5f139ae4a03dcf29b14aff2e98f072f04da9009698511ff201544443287fb54",
+      "assigned_split": "development",
+      "representative_user": 35,
+      "coordinate_fingerprint": "ab6bb70bcaf948d585ab68629298c66654d2a838764df98eacc665cbb9e272c5",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "validation",
+      "user": 151,
+      "state_path_fingerprint": "563fcd28d5d678b0cc1292a3e221ea74ad21710841a4322cf25cbc3edc4dc811",
+      "assigned_split": "development",
+      "representative_user": 0,
+      "coordinate_fingerprint": "0af8cb6ca82c6135be5c7db2b5f0a0a080212d8d7b685dd4dff5caa944f473a6",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 9,
+      "state_path_fingerprint": "d5f139ae4a03dcf29b14aff2e98f072f04da9009698511ff201544443287fb54",
+      "assigned_split": "development",
+      "representative_user": 35,
+      "coordinate_fingerprint": "1ee7de864654415d03b484d1560d15ec32837dcfdf6f0a7c5ca71af1cf7f2f5d",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 13,
+      "state_path_fingerprint": "804d6b9142dcc18ec7ad763541e2ab94a755a386e69be0a4094541c4fca640e2",
+      "assigned_split": "development",
+      "representative_user": 70,
+      "coordinate_fingerprint": "e7a53afd365a0c15acc8ba96da1de5ad303be5ba6de706b973f880f4bffccdfb",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 23,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "c1960b964e1855757e2df5a7b17a4f3cf34a7e61acda7eea8fb98488a13361f2",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 24,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "3fce81493e0e2c005cedbdaaf2f06ff4c1262d6d2c357a53fbd85d131aab5d3b",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 32,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "a1876dc72438e6123dd2a1cb5565cb1cbec9de6894eec9c42df1413d3d63af5d",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 33,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "6a18008365674490b80325d8a135ab2857f1c26ef46592a06721fe4d3776432f",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 42,
+      "state_path_fingerprint": "d5f139ae4a03dcf29b14aff2e98f072f04da9009698511ff201544443287fb54",
+      "assigned_split": "development",
+      "representative_user": 35,
+      "coordinate_fingerprint": "11974e906f504ae2d4e73f49030163b1c9eedbc76838392c3ccbcd7c0c629f89",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 44,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "66a0ca90953e82ddef7be2d9e76adae856614236fa25a4e78692488004b3cfb8",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 67,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "b74dfcdf7fa9728cae32acdec6c8fa035029aa853d2668ef5ca628ee1f52abbe",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 88,
+      "state_path_fingerprint": "411ecc3b595e5571133f4510647f26b43d87d2549f30767ce2be0023b387d814",
+      "assigned_split": "validation",
+      "representative_user": 11,
+      "coordinate_fingerprint": "e13e28113c9e68b3e1e4b04d9268d1c4739eba83d9aedc8569afe9c3507e01b6",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 112,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "7e3483e7ef8e3362c38231ac3bc8c984c1496198f9f35ca6111e8c9b74a05a7d",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 159,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "b90ff9cd523327625afd734e0cec6895e1bac97d7e5c510759a373cb25edb07a",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 174,
+      "state_path_fingerprint": "7bee3538214708102a4b8034514229ce815fa28b3ad93da8fd8bd7e26a83a5d9",
+      "assigned_split": "development",
+      "representative_user": 55,
+      "coordinate_fingerprint": "b2ea11beb9dca955c3a88ba820bad55b0570f62bda45fb37059d7f45a44d13d8",
+      "reason": "model-input group assigned to earlier split"
+    },
+    {
+      "split": "test",
+      "user": 177,
+      "state_path_fingerprint": "60490c354313501c438b5ab0aad40105c37109c59202ef0c6f0dfd2c91829f88",
+      "assigned_split": "development",
+      "representative_user": 135,
+      "coordinate_fingerprint": "1791ce77912c008f50ae7fa00bce85f1656e78a2cb33d9ad89708d1baa4c960d",
+      "reason": "model-input group assigned to earlier split"
+    }
+  ],
+  "exact_coordinate_duplicates": [
+    {
+      "split": "development",
+      "user": 75,
+      "coordinate_fingerprint": "3fe3c35de73bec2ff51b459dafba02ea38629317b6009bc1be58b70c3d83dcde",
+      "duplicate_of_split": "development",
+      "duplicate_of_user": 55
+    },
+    {
+      "split": "test",
+      "user": 13,
+      "coordinate_fingerprint": "e7a53afd365a0c15acc8ba96da1de5ad303be5ba6de706b973f880f4bffccdfb",
+      "duplicate_of_split": "development",
+      "duplicate_of_user": 70
+    },
+    {
+      "split": "test",
+      "user": 59,
+      "coordinate_fingerprint": "63bf0118272e29eda322f52cf53b28b3dd3cc344d357d9092c84bbf788a5e36b",
+      "duplicate_of_split": "test",
+      "duplicate_of_user": 58
+    },
+    {
+      "split": "test",
+      "user": 88,
+      "coordinate_fingerprint": "e13e28113c9e68b3e1e4b04d9268d1c4739eba83d9aedc8569afe9c3507e01b6",
+      "duplicate_of_split": "validation",
+      "duplicate_of_user": 11
+    },
+    {
+      "split": "test",
+      "user": 129,
+      "coordinate_fingerprint": "0dcc634e0074331af57dc5d0fea44154f4742f00b5a3799f22532f0f262b96aa",
+      "duplicate_of_split": "test",
+      "duplicate_of_user": 69
+    },
+    {
+      "split": "test",
+      "user": 144,
+      "coordinate_fingerprint": "b8a9d3a51a0b429b38da416317e257369816ccdb92b4c561df74c21a954765ad",
+      "duplicate_of_split": "test",
+      "duplicate_of_user": 89
+    },
+    {
+      "split": "test",
+      "user": 153,
+      "coordinate_fingerprint": "15d499546762ec01b257bfe567354a96b51bb0e49415d23fd73ba9871c7442f2",
+      "duplicate_of_split": "test",
+      "duplicate_of_user": 128
+    },
+    {
+      "split": "test",
+      "user": 163,
+      "coordinate_fingerprint": "15d499546762ec01b257bfe567354a96b51bb0e49415d23fd73ba9871c7442f2",
+      "duplicate_of_split": "test",
+      "duplicate_of_user": 128
+    }
+  ],
+  "development_change_probability": 0.05087881591119333
+}

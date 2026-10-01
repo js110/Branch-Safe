@@ -1,0 +1,30 @@
+{
+  "source_sha": "a042b78a43db4e08f67276ad93b9010fff4a19f6",
+  "legacy_directory": "results/sensitivity",
+  "postfix_directory": "results/reset_sensitivity_postfix",
+  "legacy_rows": 360,
+  "postfix_rows": 360,
+  "key_sets_equal": true,
+  "differing_row_count": 0,
+  "max_abs_diff_by_metric": {
+    "hit": 0.0,
+    "error_cells": 0.0,
+    "error_m": 0.0,
+    "peak": 0.0,
+    "logloss": 0.0,
+    "covered95": 0.0,
+    "credible95": 0.0,
+    "entropy": 0.0,
+    "prior_hit": 0.0,
+    "raw_completion": 0.0,
+    "coverage": 0.0,
+    "reward": 0.0,
+    "utility": 0.0,
+    "complete": 0.0,
+    "opportunities": 0.0,
+    "reports": 0.0
+  },
+  "interpretation": "The legacy reset_every conditions use no client_prior or attacker_prior, so both sides start from the same default uniform prior. The reset-prior bug is therefore behaviorally dormant for these legacy rows. This post-fix rerun provides source-bound evidence under the corrected implementation.",
+  "rows_sha256": "e98f442b735e70d30c70232365bf2579797c4a04cf913c215b2ac6a8081c17a8",
+  "config_sha256": "4b42ad3975c8da3ce51f2f2c2e58123e2ddbc9619efc1e91d4660e3e11f2a156"
+}

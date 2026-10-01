@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "data/geolife_development.npz": "cf58efa066484a8896f5f8065925d673c4e5524b956cf066a851104b53eed116",
+    "data/geolife_validation.npz": "8a2d6b189f8808f10eef47bf74a9d16a2b4d6deee3f5d1ba9bf261d9517de570",
+    "data/geolife_test.npz": "46fea0dcc58bdca4dd85f509a66a18616d44cb05615c6951becef63777752410",
+    "results/final/static_adaptive_bsp_0.1.jsonl.gz": "0548a2f7896746d515627c913e667644c82b193c67f653185fc08b8191321180",
+    "results/final/walk_adaptive_bsp_0.1.jsonl.gz": "c7d75111243516e9e649b66bc877c15e9218e699f08716c203f435f84559d14e",
+    "results/final/commute_adaptive_bsp_0.1.jsonl.gz": "f94b1543329edefc513ac1a9389b8db3e363a43be19a54247a0a2e5649294f51",
+    "results/final/geolife_adaptive_bsp_0.1.jsonl.gz": "fed233f29d570c1541184989cb8d3cf3a8bbf5e3cfaec0064c0b677c36c20b86",
+    "results/combined/analysis/summary.csv": "b593295aa58f4d5a11d921d244efc89b0d09bc94979a34d4cebff6d82ee74315",
+    "results/final/rows.csv": "f29f592608f5e35bdb701c10c9b51c4c2525850d9fd1b9d32c9c41cebb54af12",
+    "results/recent_comparison/summary.csv": "54ee0834d176454228db0e58d348d98361f6655a9f3859c7ec20630b29639052",
+    "src/review_diagnostics.py": "049b603ba650190869bb7f57ffa3d336595850a3f4cbde18e609a01ff8beaa54"
+  },
+  "region_bins": [
+    [
+      1,
+      8
+    ],
+    [
+      9,
+      31
+    ],
+    [
+      32,
+      64
+    ]
+  ],
+  "region_condition": "adaptive BSP rho=0.1; not envelope mixtures",
+  "raw_completion": "sum completions / sum all normal tasks; not mean per-user ratio",
+  "prior_interpretation": "No task outputs; fixed cell predictor; not a rerun of an adaptive attack",
+  "prior_estimator": "effective test-window/position-weighted point estimate; complete state-path-group cluster bootstrap",
+  "test_use": "descriptive evaluation only; predictor fitted on development",
+  "zoom": "same saved points and envelope as main recent-method figure; expanded vertical scale",
+  "numpy": "2.4.1",
+  "matplotlib": "3.10.9"
+}

@@ -1,0 +1,6 @@
+{
+  "input_sha256": "b2b59173d8a81b93e77e53f3665858f6e580fc1fe2f6f454d6b71a809837c07b",
+  "bootstrap": 1000,
+  "clusters": "10 synthetic seeds, four trajectories per seed",
+  "interval": "pointwise percentile 95%"
+}

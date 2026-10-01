@@ -1,0 +1,12 @@
+{
+  "input_sha256": "eddb1dc547cf2a45da84f36f775146db909ad0d0a07306b5c1895cf7ff291348",
+  "bootstrap": 1000,
+  "unit": "point estimates: trajectory/window rows; uncertainty clusters: synthetic seed or GeoLife complete 48-slot state-path group",
+  "estimator": "window-weighted mean for risk metrics; ratio of summed completions to opportunities for utility; cluster bootstrap for intervals",
+  "figure_files": [
+    "tradeoff",
+    "calibration",
+    "attacks"
+  ],
+  "interval": "percentile cluster bootstrap 95%, pointwise; no multiplicity correction"
+}
